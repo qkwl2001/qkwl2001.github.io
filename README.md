@@ -1,14 +1,12 @@
 # Welcome to Ji MA Pages
 
 
+I am Ji Ma, studing in  [Mixed Class](http://ckc.zju.edu.cn/34924/list.htm) in [CKC](http://ckc.zju.edu.cn/xyjj/list.htm),ZJU .My major is computer science and technology.
 
-马骥 浙江大学  竺可桢学院 混合班 （Mixed class in CKC,ZJU )在读
+I am learing in  [State Key Lab of CAD&CG, Zhejiang University](http://www.cad.zju.edu.cn/) (as of Jan, 2020) ,as an [Interactive Data Group](http://zjuidg.org/) member supervised by [Prof. Yingcai Wu](http://ycwu.org/).  My research interest lies in the Visual Analytics.
+Email : 'zjumaji'+''@zju.edu.cn'
+<div align="left">
+<img src="https://github.com/qkwl2001/qkwl2001.github.io/horse.jpg"></div>
 
-浙江大学 CAD&CG 国家重点实验室 IDG group ，目前的兴趣是可视分析。
 
-计算机学院 计算机科学与技术1905 
-
-邮箱zjumaji@zju.edu.cn
-
-还没有开始写博客，以后慢慢更~
-
+<front face="楷体">还没有开始写博客，以后慢慢更~</front>
