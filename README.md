@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Welcome to Ji MA Pages
 
-You can use the [editor on GitHub](https://github.com/qkwl2001/qkwl2001.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+马骥 浙江大学  竺可桢学院 混合班 （Mixed class in CKC,ZJU )在读
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+浙江大学 CAD&CG 国家重点实验室 IDG group ，目前的兴趣是可视分析。
 
-```markdown
-Syntax highlighted code block
+计算机学院 计算机科学与技术1905 
 
-# Header 1
-## Header 2
-### Header 3
+邮箱zjumaji@zju.edu.cn
 
-- Bulleted
-- List
+还没有开始写博客，以后慢慢更~
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qkwl2001/qkwl2001.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
