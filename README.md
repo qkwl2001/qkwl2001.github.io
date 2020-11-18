@@ -1,29 +1,35 @@
-# Welcome to Ji MA 's Pages
+# Catbook
+CATbook is a CATegory-centric Jekyll theme for bloggers. There is a switch button to toggle between dark mode and light mode. This theme is originally inspired from [Book](https://github.com/kkninjae/book).
 
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-1.0-green.svg)
 
-I am Ji Ma, studing in  [Mixed Class](http://ckc.zju.edu.cn/34924/list.htm) in [CKC](http://ckc.zju.edu.cn/xyjj/list.htm),ZJU .My major is computer science and technology.
+**Demo:** https://starry99.github.io/catbook/
 
-I am learing in  [State Key Lab of CAD&CG, Zhejiang University](http://www.cad.zju.edu.cn/) (as of Jan, 2020) ,as an [Interactive Data Group](http://zjuidg.org/) member supervised by [Prof. Yingcai Wu](http://ycwu.org/).  My research interest lies in the Visual Analytics.
-Email : 'zjumaji'+'@zju.edu.cn'
+![SCREENSHOT](https://starry99.github.io/catbook/assets/img/lmode.jpg)
+![SCREENSHOT](https://starry99.github.io/catbook/assets/img/dmode.jpg)
 
-还没有开始写博客，以后慢慢更~
+## Setup
 
+```sh
+$ git clone https://github.com/starry99/catbook
+$ jekyll serve
 
+# Now you can start customization!
+```
 
-鹧鸪天 · 忆相逢
+## Make it yours
 
-秋雨连天伴冷风
+If you want to create a new category, you need to create `*name*.html` in the `categories` folder. And add the following content:
+```html
+---
+layout: page
+type: *name*
+---
 
-但添思绪忆相逢
+{% include archive.html %}
+```
+Then the number of pages in the category will be displayed.
 
-相逢若是难圆梦
+## License
 
-唯愿长留在梦中
-
-思往事，笑颜浓
-
-久别无改是初衷
-
-前行莫畏荆棘路
-
-沉潜砥砺是正声。
+[MIT License](https://opensource.org/licenses/MIT)
