@@ -4,23 +4,27 @@
     background-color: bisque;
 }
 #barneg{
-    top: 25px;
+    height: 700px;
+    width: 95%;
+    /* top: 25px;
     height: 60%;
     left: 10px;
-    width: 60%;
-    position: absolute;
+    width: 95%; */
+    position: relative;
 }
 #scatter{
-    bottom: 5px;
-    left: 60%;
-    width: 35%;
-    height:35%;
-    position: absolute;
+    height: 400px;
+    width: 95%;
+    /* bottom: 5px;
+    left: 5px;
+    width: 95%;
+    height:200px; */
+    position: relative;
 }
 #heatmap{
-    bottom: 320px;
-        right: 70px;
-        width: 395px;
-        top: 20px;
-    position: absolute;
+    
+    
+    width: 95%;
+    height: 350px;
+    position: relative;
 }
