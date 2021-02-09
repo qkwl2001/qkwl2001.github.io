@@ -1,0 +1,26 @@
+
+.css1{
+  
+    background-color: bisque;
+}
+#barneg{
+    top: 25px;
+    height: 60%;
+    left: 10px;
+    width: 60%;
+    position: absolute;
+}
+#scatter{
+    bottom: 5px;
+    left: 60%;
+    width: 35%;
+    height:35%;
+    position: absolute;
+}
+#heatmap{
+    bottom: 320px;
+        right: 70px;
+        width: 395px;
+        top: 20px;
+    position: absolute;
+}
