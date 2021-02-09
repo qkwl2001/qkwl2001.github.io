@@ -1,11 +1,7 @@
 var dom = document.getElementById("barneg");
             var myChart = echarts.init(dom);
-            var app = {};
-            
+            var app = {};        
             var option;
-            
-            
-            
             option = {
                 tooltip: {
                     trigger: 'axis',
