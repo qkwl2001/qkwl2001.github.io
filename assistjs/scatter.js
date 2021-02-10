@@ -18,28 +18,49 @@ var data = [
     [3,0,0],[3,1,3],[3,2,4],[3,3,2],[3,4,3],[3,5,3],[3,6,4],[3,7,3],[3,8,3],[3,9,1],[3,10,2],[3,11,2],[3,12,3],[3,13,1],[3,14,2],[3,15,1],[3,16,0],[3,17,0],[3,18,0],[3,19,1],[3,20,2],[3,21,1],[3,22,2],[3,23,2],[3,24,3],[3,25,7],[3,26,2],[3,27,0],[3,28,1],[3,29,0],[3,30,1],[3,31,2],[3,32,3],[3,33,1],[3,34,1],[3,35,0],[3,36,1],[3,37,0],[3,38,0],[3,39,0],[3,40,0],[3,41,1],[3,42,1],[3,43,3],[3,44,5],[3,45,4],[3,46,7],[3,47,4],[3,48,4],[3,49,4],[3,50,2],[3,51,5],[3,52,6],[3,53,6],[3,54,9],[3,55,7],[3,56,4],[3,57,2],[3,58,3],[3,59,1],[3,60,0],[3,61,1],[3,62,1],[3,63,1],[3,64,1],[3,65,1],[3,66,1],[3,67,0],[3,68,0],[3,69,0],[3,70,0],[3,71,1],[3,72,0],[3,73,0],[3,74,0]
     ]
 option = {
-    toolbox:{
-        show:false,
-        feature:{
-            dataZoom:{
-                show:true,
-                realtime : true,
-					start : 20,
-					end : 80,
-                    type: 'slider', 
-            }
+    toolbox: {
+        feature: {
+            dataZoom: {
+                yAxisIndex: 'none'
+            },
+            restore: {},
+            saveAsImage: {}
         }
     },
     tooltip: {
-        position: 'top'
+        trigger: 'axis',
+        axisPointer: {
+            type: 'cross',
+            animation: false,
+            label: {
+                backgroundColor: '#505765'
+            }
+        }
     },
     title: [],
     singleAxis: [],
+    // dataZoom: [
+    //     {
+    //         show: true,
+    //         realtime: true,
+    //         start: 65,
+    //         end: 85
+    //     },
+    //     {
+    //         type: 'inside',
+    //         realtime: true,
+    //         start: 65,
+    //         end: 85
+    //     }
+    // ],
     dataZoom: [
                     {        
                                 id: 'dataZoomX0',  
                                 // xAxisIndex:1,
-                                singleAxisIndex:[0,1,2,3],   
+                                singleAxisIndex:[0,1,2,3], 
+                                realtime:true,
+                                start:55,
+                                end:85,  
                                 show:true,                              //是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。        
                                 backgroundColor:"rgba(47,69,84,0)",  //组件的背景颜色        
                                 type: 'slider',                         //slider表示有滑动块的，inside表示内置的 
@@ -47,39 +68,7 @@ option = {
                                 handleSize: '105%'       
                                },
                            
-                    /*
-                    {        
-                                id: 'dataZoomX1',  
-                                xAxisIndex:1,     
-                                show:true,                              //是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。        
-                                backgroundColor:"rgba(47,69,84,0)",  //组件的背景颜色        
-                                type: 'slider',                         //slider表示有滑动块的，inside表示内置的 
-                                handleIcon: 'M10.7,11.9H9.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4h1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
-                                handleSize: '105%'       
-                               }
-                           
-                    ,
-                    {        
-                                id: 'dataZoomX2',  
-                                xAxisIndex:2,     
-                                show:true,                              //是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。        
-                                backgroundColor:"rgba(47,69,84,0)",  //组件的背景颜色        
-                                type: 'slider',                         //slider表示有滑动块的，inside表示内置的 
-                                handleIcon: 'M10.7,11.9H9.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4h1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
-                                handleSize: '105%'       
-                               }
-                           
-                    ,
-                    {        
-                                id: 'dataZoomX3',  
-                                xAxisIndex:3,     
-                                show:true,                              //是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。        
-                                backgroundColor:"rgba(47,69,84,0)",  //组件的背景颜色        
-                                type: 'slider',                         //slider表示有滑动块的，inside表示内置的 
-                                handleIcon: 'M10.7,11.9H9.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4h1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
-                                handleSize: '105%'       
-                               }
-                           */
+                    
                     ],
                     
     series: []
@@ -103,11 +92,13 @@ days.forEach(function (day, idx) {
             interval: 2
         }
     });
+    
     option.series.push({
         singleAxisIndex: idx,
         coordinateSystem: 'singleAxis',
         type: 'scatter',
         data: [],
+        
         symbolSize: 
         function (dataItem) {
             return dataItem[1]*window.outerWidth*0.0015
