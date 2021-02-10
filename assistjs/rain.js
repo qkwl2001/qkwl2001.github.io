@@ -8,12 +8,12 @@ var option;
 
 
 option = {
-    title: {
-        text: '食堂流量关系图',
+    // title: {
+    //     text: '食堂流量关系图',
         
-        left: 'center',
-        align: 'right'
-    },
+    //     left: 'center',
+    //     align: 'right'
+    // },
     grid: {
         bottom: 80
     },
