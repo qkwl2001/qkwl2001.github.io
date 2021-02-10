@@ -19,6 +19,7 @@ var data = [
     ]
 option = {
     toolbox: {
+        top:'70%',
         feature: {
             dataZoom: {
                 yAxisIndex: 'none'
@@ -29,6 +30,7 @@ option = {
     },
     tooltip: {
         trigger: 'axis',
+        
         axisPointer: {
             type: 'cross',
             animation: false,
@@ -59,7 +61,7 @@ option = {
                                 // xAxisIndex:1,
                                 singleAxisIndex:[0,1,2,3], 
                                 realtime:true,
-                                start:55,
+                                start:35,
                                 end:85,  
                                 show:true,                              //是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。        
                                 backgroundColor:"rgba(47,69,84,0)",  //组件的背景颜色        
