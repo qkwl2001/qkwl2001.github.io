@@ -69,7 +69,9 @@ option = {
         },
     dataZoom: [
             {        
-                id: 'dataZoomX',        
+                id: 'dataZoomX', 
+                start:65,
+                end:85,       
                 show:true,                              //是否显示 组件。如果设置为 false，不会显示，但是数据过滤的功能还存在。        
                 backgroundColor:"rgba(47,69,84,0)",  //组件的背景颜色        
                 type: 'slider',                         //slider表示有滑动块的，inside表示内置的 
