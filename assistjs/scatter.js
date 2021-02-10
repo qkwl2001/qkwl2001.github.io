@@ -108,9 +108,11 @@ days.forEach(function (day, idx) {
         coordinateSystem: 'singleAxis',
         type: 'scatter',
         data: [],
-        symbolSize: function (dataItem) {
-            return dataItem[1] * 4;
-        },
+        symbolSize: 
+        function (dataItem) {
+            return `${dataItem[1]}`
+             
+        }
         // dataZoom:[{        
         //                         id: 'dataZoomX3',  
         //                         // xAxisIndex:0,     
