@@ -97,10 +97,10 @@ ul{
 	font-family: Helvetica Neue;
 	font-size: 70px;
 	text-transform: uppercase;
-	color: #444;
+	color: rgb(241, 237, 237);
 }
 #slide-1 p{
-	color: #ED0C4C;
+	color: #d2e985;
 	font-size: 24px;
 	text-align: center;
 	margin-top: 60px;
@@ -145,6 +145,7 @@ ul{
 }
 #slide-2 p{
 	font-size: 15px;
+	color: rgb(202, 241, 247);
 }
 .image-wrapper{
 	float: left;
