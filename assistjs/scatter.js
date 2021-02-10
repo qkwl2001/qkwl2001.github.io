@@ -110,7 +110,7 @@ days.forEach(function (day, idx) {
         data: [],
         symbolSize: 
         function (dataItem) {
-            return `${dataItem[1]}`
+            return dataItem[1]*window.outerWidth*0.0015
              
         }
         // dataZoom:[{        
