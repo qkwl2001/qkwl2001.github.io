@@ -80,18 +80,25 @@ days.forEach(function (day, idx) {
 
     option.title.push({
         textBaseline: 'middle',
-        top: (idx + 0.5) * 100 / 7 + '%',
-        text: day
+        // textBaseline: 2,
+        top: (idx + 0.5) * 100 / 6 + '%',
+        left:10,
+        text: day,
+        textStyle:{
+            fontSize:23 + '%',
+
+        }
     });
     option.singleAxis.push({
-        left: 150,
+        left: '10%',
         type: 'category',
         boundaryGap: false,
         data: hours,
-        top: (idx * 100 / 7 + 5) + '%',
-        height: (100 / 7 - 10) + '%',
+        top: (idx * 100 / 6 + 5) + '%',
+        height: (100 / 6 - 10) + '%',
         axisLabel: {
-            interval: 2
+            interval: 6,
+            
         }
     });
     
