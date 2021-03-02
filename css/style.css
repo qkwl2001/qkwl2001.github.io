@@ -73,7 +73,8 @@ ul{
 	font-style: italic;
 }
 #head-section{
-	background: url('../img/3.jpg') fixed;
+	/* background: url('../img/3.jpg') fixed; */
+	background: url('https://gitee.com/Beitian2020/photo-me/3.jpg') fixed;
 	background-size: cover;
 	position: relative;
 	z-index: 10000;
